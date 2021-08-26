@@ -84,12 +84,7 @@ func (h *Hunter) Search(d []Direction) {
 				// move it
 				p = df(p)
 
-				if p.Col < 0 || p.Col == nCol {
-					// out of boundary
-					break
-				}
-
-				if p.Row < 0 || p.Row == nRow {
+				if p.Col < 0 || p.Col == nCol || p.Row < 0 || p.Row == nRow {
 					// out of boundary
 					break
 				}
