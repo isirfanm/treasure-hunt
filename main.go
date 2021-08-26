@@ -73,6 +73,7 @@ func (h *Hunter) Search(d []Direction) {
 	nCol := len(h.Mapz[0])
 
 	curPos := []Loc{h.StartLoc}
+	// follow each direction
 	for _, df := range d {
 		nextPos := []Loc{}
 
