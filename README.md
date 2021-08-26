@@ -15,7 +15,7 @@ Build a simple command-line program for helping the user hunt for a treasure tha
     ########
     ```
 
-    - # represents an obstacle.
+    - \# represents an obstacle.
     - . represents a clear path.
     - X represents the player’s starting position.
 
@@ -23,7 +23,7 @@ Build a simple command-line program for helping the user hunt for a treasure tha
 3. From the starting position, the user must navigate in a specific order:
     a. Up/North A step(s), then
     b. Right/East B step(s), then
-    c. Down/SouthCstep(s).
+    c. Down/South C step(s).
 4. The program must output a list of probable coordinate points where the treasure might be located.
 5. Bonus points: display the grid with all the probable treasure locations marked with a $ symbol.
 
